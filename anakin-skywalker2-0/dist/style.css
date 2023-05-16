@@ -1,0 +1,130 @@
+.Webpage{
+  display: flex;
+ width: 1200px;
+  flex-direction: column;
+}
+navbar{
+  display: flex;
+  width: 1200px;
+  height: 80px;
+  background: black;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 30px;
+}
+a{
+  color: white;
+}
+container{
+  display: flex;
+  flex-direction: row;
+  height: 2200px;
+}
+img{
+  width: 450px;
+  margin-bottom: 20px;
+}
+}
+main{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+  margin: 0;
+  justify-content: space-between;
+  height: 2200px;
+}
+side{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  flex-grow: 2;
+  justify-content: space-between;
+  height: 1900px;
+}
+header{
+  position: relative;
+}
+#MyName{
+  position: absolute;
+  bottom: 80px;
+  left: 60px;
+font-family: 'Abril Fatface', cursive #222 grey;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+#Name{
+  position: absolute;
+  bottom: 30px;
+  left: 60px;
+  font-family: 'Abril Fatface', cursive #222 grey;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+.Quote{
+  background: #666666;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 42px;
+  color: white;
+  margin: 100px 0;
+}
+.Paragraph2{
+font-family: 'Josefin Sans', sans-serif #222 grey ;
+  padding: 30px;
+  margin: 100px 0;
+}
+.Paragraph1{
+  font-family: 'Josefin Sans', sans-serif #222 grey ;
+  font-size: 20px;
+  padding: 30px;
+}
+h2{
+  margin-bottom: 0;
+}
+h3{
+font-family: 'Merriweather', serif 15px;
+  font-style: italic;
+  margin-top: 0;
+}
+blockquote::before{
+  content: '\201C';
+  position: relative;
+ left: -40px;
+  top: -70px;
+  font-size: 120px;
+  margin:40px 0;
+}
+#Q1{
+  display: flex;
+  height: 160px;
+  align-items: center; 
+  padding-left: 0;
+  
+}
+#Q2{
+  display: flex;
+  height: 180px;
+  align-items: center; 
+}
+#Q3{
+   display: flex;
+  height: 200px;
+  align-items: center; 
+}
+.Uppercase{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48
+}
+main{
+  background-color:#eff5f5;
+}
